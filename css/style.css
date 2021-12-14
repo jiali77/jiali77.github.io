@@ -38,6 +38,9 @@ h6,
 .site-section {
   padding: 5.5rem 0;
 }
+.myphoto {
+  max-width:70% !important;
+}
 
 .filters a {
   color: #000;

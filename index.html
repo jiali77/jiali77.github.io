@@ -195,26 +195,17 @@ $(function(){
     </div>
 
   </main>
-  <footer class="footer" role="contentinfo">
-    <div class="container">
-      <div class="row">
-        <div class="col-md-12 col-sm-12">
-          <p class="mb-1">Copyright&copy; 2022 Jiali Liu. All Rights Reserved</p>
-          <div class="credits">
-            <!--
-              All the links in the footer should remain intact.
-              You can delete the links only if you purchased the pro version.
-              Licensing information: https://bootstrapmade.com/license/
-              Purchase the pro version with working PHP/AJAX contact form: https://bootstrapmade.com/buy/?theme=MyPortfolio
-            -->
-            Theme MyPortfolio from <a href="https://bootstrapmade.com/">BootstrapMade</a>
-          </div>
-        </div>
+  <!--footer-->
+<div id="footer-placeholder">
+</div>
 
-
-      </div>
-    </div>
-  </footer>
+<script>
+$(function(){
+  $("#footer-placeholder").load("footer.html");
+  console.log("hhhh");
+});
+</script>
+<!--end of footer-->
 
   <!-- Vendor JS Files -->
   <script src="vendor/jquery/jquery.min.js"></script>
