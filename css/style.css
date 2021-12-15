@@ -35,17 +35,39 @@ h6,
 #section-intro {
   padding: 10rem 2rem 0 0 !important;
 }
-#my-skills {
-  background-color: #F3F6E5;
-}
-#single-post {
-    margin-top: 32px;
-    letter-spacing: 2px;
-}
 #elevator-pitch {
   font-size: 18px;
   margin-top: 1rem;
 }
+#my-skills {
+  background-color: #F3F6E5;
+}
+
+#single-post {
+    margin-top: 32px;
+    letter-spacing: 2px;
+}
+
+.project-info {
+  padding-bottom: 1rem;
+}
+
+.project-info p {
+    color: #777;
+    font-size: 16px;
+    line-height: 28px;
+    word-spacing: 1px;
+    letter-spacing: 1px;
+}
+
+.project-content p {
+    color: #777;
+    font-size: 16px;
+    line-height: 28px;
+    word-spacing: 1px;
+    letter-spacing: 1px;
+}
+
 .site-section {
   padding: 5.5rem 0;
 }
@@ -74,6 +96,8 @@ h6,
   text-decoration: none;
   background: #000;
 }
+
+
 
 .filters a {
   color: #000;
