@@ -46,7 +46,11 @@
 
 <script>
 $(function(){
-  $("#nav-placeholder").load("nav.html");
+  $("#nav-placeholder").load("nav.html", () => {
+    $("#menu-portfolio").attr('class', 'nav-item active');
+    $("#menu-home").attr('class', 'nav-item');
+    $("#menu-about").attr('class', 'nav-item');
+  });
 });
 </script>
 <!--end of Navigation bar-->
@@ -95,7 +99,7 @@ $(function(){
               Content here
               Content here
               Content here
-              Content here 
+              Content here
             </p>
         			<hr style="width:50%;text-align:left;margin-left:0">
                     <h6 class="wow fadeIn animated" data-wow-delay="0.1s" style="visibility: visible; animation-delay: 0.1s; animation-name: fadeIn;">Publication</h6>
