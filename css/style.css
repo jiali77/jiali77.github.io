@@ -42,6 +42,10 @@ h6,
     margin-top: 32px;
     letter-spacing: 2px;
 }
+#elevator-pitch {
+  font-size: 18px;
+  margin-top: 1rem;
+}
 .site-section {
   padding: 5.5rem 0;
 }
