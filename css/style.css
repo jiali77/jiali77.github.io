@@ -32,8 +32,11 @@ h6,
   font-family: "Raleway", sans-serif;
 }
 
-#section-intro {
-  padding: 10rem 2rem 0 0 !important;
+.pt-10 {
+  padding-top: 10rem!important;
+}
+.pt-2 {
+  padding-top: 2rem!important;
 }
 #elevator-pitch {
   font-size: 18px;
