@@ -47,7 +47,13 @@ h6,
     margin-top: 32px;
     letter-spacing: 2px;
 }
+#self-intro h2 {
+  margin-bottom: 1rem;
+}
 
+#self-intro p {
+  margin-bottom: 1rem;
+}
 .project-info {
   padding-bottom: 1rem;
 }
@@ -156,7 +162,7 @@ h6,
   left: 0;
   right: 0;
   bottom: 0;
-  background: rgba(0, 0, 0, 0.4);
+  background: rgba(0, 0, 0, 0.8);
   visibility: hidden;
   opacity: 0;
   transition: .3s all ease-in-out;
